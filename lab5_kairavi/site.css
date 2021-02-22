@@ -1,0 +1,48 @@
+form.form1 {
+    box-sizing: border-box;
+    border: 5px solid teal;
+    width: 500px;
+    height: auto;
+    padding: 15px;
+    position: relative;
+}
+
+header {
+    box-sizing: border-box;
+    height: 15em;
+    width: auto;
+    background-image: url("https://images.wsj.net/im-57265?width=1280&size=1.77777778");
+    padding: 15px;
+}
+
+fieldset {
+    width: 400px;
+    height: auto;
+}
+
+header>h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: teal;
+}
+
+input,
+select.selectGames {
+    width: 250px;
+    height: 20px;
+    float: right;
+}
+
+label {
+    font: italic bold 17px Geneva;
+}
+
+input.btn-primary {
+    height: 30px;
+    width: auto;
+    background-color: thistle;
+    color: black;
+    border-radius: 2px;
+    border: 1px solid black;
+    float: left;
+}

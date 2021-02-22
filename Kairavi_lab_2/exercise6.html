@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <style>
+        fieldset {
+            width: 1000px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="form1" action="https://www.google.ca/">
+        <h2>Exercise 6</h2>
+        <fieldset>
+            <legend>Order Form</legend>
+            <label for="name">
+                Full Name:
+            </label><br>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required><br><br>
+            <label for="contact">
+               Telephone:
+            </label><br>
+            <input type="tel" name="contact" id="contact" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Pattern: 1-234-567-8910" required><br><br>
+            <label for="email">
+                E-mail Address:
+            </label><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Emulators</legend>
+            <label for="games">
+                Quantity (maximum 5) : 
+            </label>
+            <select name="games">
+                <option>--select any game--</option>
+                <option>Ataria</option>
+                <option>Sega Genesis</option>
+                <option>Nintendo</option>
+                <option>Play Station</option>
+                <option>XBox</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="checkout.css" />
+</head>
+
+<body class="payment_body-style">
+    <form name="form1" action="https://www.google.ca/">
+        <header>
+            <img src="https://www.logo-designer.co/wp-content/uploads/2018/05/2018-bestbuy-new-logo-design.png" class="brand-icon" alt="Best Buy">
+            <i class="far fa-shopping-cart fa-2x fa-style"> Cart</i>
+        </header>
+        <section class="title">
+            <p>Checkout</p>
+        </section>
+        <section class="order-summary">
+            <h2>Order Summary</h2>
+            <table>
+                <tr>
+                    <td>Product Subtotal</td>
+                    <td>$399.99</td>
+                </tr>
+                <tr>
+                    <td>Estimated Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>Estimated Taxes</td>
+                    <td>$52.00</td>
+                </tr>
+                <tr>
+                    <td><b>Estimated Total</b>
+                    </td>
+                    <td><b>$451.99</b></td>
+                </tr>
+            </table><br><br>
+            <input type="submit" class="btn-continue" value="Proceed to Checkout"></button>
+            <br><br>
+            <table>
+                <tr>
+                    <td><i class="far fa-lock fa-4x"></i></td>
+                    <td>
+                        <h3>Security and Privacy</h3>
+                        <p>Every transaction on BestBuy.ca is secure. Any personal information you give us will be handled according to our <span style="color:blue">Privacy Policy.</span></p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="content">
+            <h2>Payment</h2>
+            <div class="gift-card">
+                <i class="fas fa-gift-card fa-1x card_style">  Gift Card</i>
+            </div>
+            <div class="card-details">
+                <div class="card-details_div"><i class="fas fa-circle-notch"> Credit Card</i></div>
+                <hr>
+                <h4>Card Information</h4>
+                <div class="new_card-section">
+                    <p style="color:blue;font-weight: bold;">New Card</p>
+                    <p>We accept the following cards.</p>
+                    <img src="data:image/png;base64,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"
+                        alt="visa image">
+                    <img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Fsteveolenski%2Ffiles%2F2016%2F07%2FMastercard_new_logo-1200x865.jpg" alt="mastercard">
+                    <img src="data:image/png;base64,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"
+                        alt="AMEX">
+                    <p>Card Number</p>
+                    <input type="text" name="credit_no" id="credit_no" placeholder="Enter Visa, Mastercard or AMEX" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required>
+                    <p>Expiry Month</p>
+                    <select required>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                    <div class="select_year">
+                        <p>Expiry Year</p>
+                        <select required>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                </select>
+                    </div>
+                    <p class="cvv_label">CVV</p>
+                    <input type="number" name="cvv" id="cvv" placeholder="CVV" min="001" max="9999" step="50" required>
+                    <blockquote>The 3 or 4 digit code is on the back or front of your card</blockquote>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </form>
+</body>
+
+</html>

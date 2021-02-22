@@ -1,0 +1,77 @@
+body {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+table.table_music_list>tr:hover {
+    opacity: 1.0;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.flex-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: lightgrey;
+    width: 1121px;
+    position: relative;
+    bottom: 320px;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 150px;
+    margin: 5px;
+    text-align: center;
+    line-height: 167px;
+    font-size: 30px;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+.section {
+    background-color: #f9f9f9;
+    border: 2px solid #f9f9f9;
+    border-radius: 10px;
+    margin-left: 320px;
+    text-align: center;
+    height: auto;
+    width: 504px;
+    padding: 30px;
+    position: relative;
+    bottom: 415px;
+}
+
+.jumbotron {
+    height: 429px;
+    position: relative;
+    opacity: 0.5;
+}
+
+.form-control {
+    display: inline;
+    width: 388px;
+}
+
+img {
+    height: 172px;
+    width: 149px;
+    cursor: pointer;
+}

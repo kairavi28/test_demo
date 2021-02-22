@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ex 4</title>
+</head>
+
+<body>
+
+    <h2>This is the main header</h2>
+    <div id="container">
+        <h1 class="first">This is a header</h1>
+        <div>this is a div tag</div>
+        <p class="main-para">this is a paragraph</p>
+        <p>this is a second paragraph<span>This is a nested tag</span></p>
+        <span class="last">this is a span <div>This is a nested div</div></span>
+    </div>
+
+    <script>
+        let container = document.querySelector("#container");
+        let main = document.querySelector(".main-para");
+        console.log("Before:", container);
+        container.removeChild(container.firstElementChild);
+        container.removeChild(main.previousElementSibling);
+        container.removeChild(main.nextElementSibling);
+        container.removeChild(container.lastElementChild);
+        container.removeChild(main);
+        console.log("After:", container);
+    </script>
+</body>
+
+</html>
+
+</html>

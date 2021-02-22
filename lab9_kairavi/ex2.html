@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <script>
+        function DisplayMessage(message) {
+            if (message == null) {
+                console.log("Message is Null");
+            } else if (message == "") {
+                console.log("Message is Empty");
+            } else {
+                console.log(message);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Exercise 2 - lab 9</h2>
+    <p onclick="DisplayMessage(null)">Message 1 - click here and check console</p>
+    <p onclick="DisplayMessage('')">Message 2 - click here and check console</p>
+    <p onclick="DisplayMessage(false)">Message 3 - click here and check console</p>
+    <p onclick="DisplayMessage('This is a test')">Message 4 - click here and check console</p>
+    <p onclick="DisplayMessage('pizza!')">Message 5 - click here and check console</p>
+    <p onclick="DisplayMessage('and chicken wings!')">Message 6 - click here and check console</p>
+    <p onclick="DisplayMessage(true)">Message 7 - click here and check console</p>
+</body>
+
+</html>

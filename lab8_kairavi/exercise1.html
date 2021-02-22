@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1 - Javascript</title>
+    <script>
+        var a, b, x;
+        a = 50;
+        b = 100;
+        console.log("value of a is ", a);
+        console.log("value of b is ", b);
+        //Simple IF Condition
+        if (a > b) {
+            x = a;
+            console.log("value of a is bigger than b");
+        } else if (a < b) {
+            x = b;
+            console.log("IF condition - value of b is bigger than a");
+        } else {
+            console.log("a could be equal to b");
+        }
+
+        //switch case
+        switch (x) {
+            case a:
+                console.log("value of a is bigger than b");
+                break;
+            case b:
+                console.log("Switch case - value of b is bigger than a");
+                break;
+            default:
+                console.log("nothing");
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Exercise 1 </h2>
+    <p>Check console for output using inspect(ctrl + shift + i) in dev tools.</p>
+</body>
+
+</html>

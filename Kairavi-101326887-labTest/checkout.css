@@ -1,0 +1,173 @@
+header {
+    background-color: #105FBD;
+    height: 60px;
+    width: auto;
+}
+
+.fa-style {
+    float: right;
+    padding-right: 50px;
+    color: white;
+    line-height: 2;
+}
+
+img.brand-icon {
+    height: 60px;
+    width: auto;
+}
+
+body.payment_body-style {
+    background-color: rgb(239, 246, 248);
+}
+
+section.title {
+    height: 50px;
+    width: auto;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid lightgrey;
+}
+
+section.title>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    line-height: 0;
+}
+
+section.content {
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+
+div.gift-card {
+    height: auto;
+    width: 730px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div.card-details {
+    height: auto;
+    width: 720px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+div.new_card-section {
+    height: auto;
+    width: 690px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+section.order-summary {
+    height: auto;
+    width: 400px;
+    float: right;
+    background-color: white;
+    border: 2px solid lightgrey;
+    padding: 20px;
+}
+
+i.card_style {
+    color: blue;
+    line-height: 1;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+div.new_card-section>p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-details_div {
+    height: 20px;
+    width: auto;
+    line-height: normal;
+    padding: 10px;
+    font-style: bold;
+}
+
+input {
+    height: 40px;
+    width: 390px;
+    text-indent: 5px;
+}
+
+select {
+    width: 190px;
+    height: 40px;
+}
+
+div.new_card-section>img {
+    height: 40px;
+    width: auto;
+}
+
+div.select_year {
+    position: relative;
+    bottom: 91px;
+    left: 204px;
+}
+
+input#cvv,
+.cvv_label {
+    width: 100px;
+    text-indent: 5px;
+    position: relative;
+    bottom: 88px;
+}
+
+blockquote {
+    position: relative;
+    bottom: 136px;
+    left: 100px;
+}
+
+blockquote::before {
+    font-size: small;
+    font-style: italic;
+    content: open-quote;
+}
+
+blockquote::after {
+    content: close-quote;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-continue {
+    width: 400px;
+    height: 40px;
+    border: 2px solid darkorange;
+    border-radius: 2px;
+    text-align: center;
+    background-color: darkorange;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
